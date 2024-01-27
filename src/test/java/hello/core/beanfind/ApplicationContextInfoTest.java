@@ -30,8 +30,6 @@ public class ApplicationContextInfoTest {
                 Object bean = ac.getBean(beanDefinitionName);
                 System.out.println("bean =" + beanDefinitionName + "object = " + bean);
             }
-
-
         }
     }
 }
