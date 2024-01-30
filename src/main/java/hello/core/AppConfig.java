@@ -29,7 +29,7 @@ public class AppConfig {
         System.out.println("call AppConfig.orderService");
         return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
-
+    
     @Bean
     public MemberRepository memberRepository() {
         System.out.println("call AppConfig.memberRepository");
